@@ -1,0 +1,33 @@
+.textContainer {
+    margin-left: 10px;
+    color: black;
+    height: 60%;
+    justify-content: space-between;
+    background-color: white;
+    max-width: 20%;
+    min-width: 20%;
+    border-radius: 4px 4px 0 0;
+
+  }
+  .onlinebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2979FF;
+    width: 100%;
+    color: white;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .activeContainer{
+    overflow: auto;
+    height: 86%;
+    padding: 0px 20px;
+  }
+
+  @media (min-width: 320px) and (max-width: 1200px) {
+    .textContainer {
+      display: none;
+    }
+  }
